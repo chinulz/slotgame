@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+/*font-family: 'Shadows Into Light', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/*font-family: 'Anton', sans-serif;*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../img/bgnya.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.atas {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.btnmsc {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#play {
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #fff;
+    background: transparent;
+    border-radius: 30%;
+    box-shadow: 0 0 20px #fff;
+}
+
+#pause {
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px #fff;
+    background: transparent;
+    border-radius: 30%;
+    box-shadow: 0 0 20px #fff;
+}
+
+.slots {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;align-items: center;
+}
+
+.txt {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #fff;
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    font-size: 30px;
+    border: 2px solid #000;
+    background: linear-gradient(#0025, #ff25);
+    background-size: 50%;
+    box-shadow: 0 0 10px #fff;
+}
+
+button {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #fff;
+    background: transparent;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    padding: 9px;
+    box-shadow: 0 0 20px #999;
+}
+
+pre {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    color: #fff;
+    font-size: 20px;
+}
